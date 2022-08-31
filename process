@@ -1,0 +1,5 @@
+get input image
+
+get the lightness value of each pixel
+
+convert that pixel to an ASCII char based on how light it is
