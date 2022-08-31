@@ -1,11 +1,11 @@
-from setup import *
 from PIL import Image
 from math import sqrt
 
 def main():
     #dark to bright
     asciiText = '@%#*+=-:. '
-    
+   
+    #asciiText = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\\\"^`'. "
     imag = Image.open("test.png")
 
     #Convert the image te RGB if it is a .gif for example
